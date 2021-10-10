@@ -8,7 +8,7 @@ describe('Get API User Tests', () => {
             method : 'GET',
             url : 'https://gorest.co.in/public/v1/users',
             headers : {
-                'authorization' : "Bearer "
+                'authorization' : "Bearer 09adec0bcf1f43602bb4fa73cadae1bde320ba6c51a283ee105f10773ea52f1b"
             }
         }).then((res)=>{
             expect(res.status).to.eq(200)
@@ -22,7 +22,7 @@ describe('Get API User Tests', () => {
             method : 'GET',
             url : 'https://gorest.co.in/public/v1/users/60',
             headers : {
-                'authorization' : "Bearer "
+                'authorization' : "Bearer 09adec0bcf1f43602bb4fa73cadae1bde320ba6c51a283ee105f10773ea52f1b"
             }
         }).then((res)=>{
             expect(res.status).to.eq(200)
